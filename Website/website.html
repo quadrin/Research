@@ -6,16 +6,21 @@
 </head>
 <body>
 	<form>
-		<input type="checkbox" name="quiz" value="Asia"><p>Asia</p><br>
-		<input type="checkbox" name="quiz" value="Africa"><p>Africa</p><br>
-		<input type="checkbox" name="quiz" value="Australia"><p>Australia</p><br>
-		<input type="checkbox" name="quiz" value="Europe"><p>Europe</p><br>
-		<input type="checkbox" name="quiz" value="North America"><p>North America</p><br>
-		<input type="checkbox" name="quiz" value="South America"><p>South America</p><br>
-		<input type="checkbox" name="quiz" value="Antarctica"><p>Antarctica</p><br>
+		What continent are you from?<br>
+		<input type="checkbox" name="quiz" value="Asia">Asia<br>
+    <input type="checkbox" name="quiz" value="Africa">Africa<br>
+		<input type="checkbox" name="quiz" value="Australia">Australia<br>
+		<input type="checkbox" name="quiz" value="Europe">Europe<br>
+		<input type="checkbox" name="quiz" value="North America">North America<br>
+		<input type="checkbox" name="quiz" value="South America">South America<br>
+		<input type="checkbox" name="quiz" value="Antarctica">Antarctica<br>
+		<input type="submit" name="submit">
 	</form>
 <?php
-
+$answer = $_POST["quiz"]
+if (empty($answer)){
+echo "You have not answered"
+}
 ?>
 </body>
 </html>
