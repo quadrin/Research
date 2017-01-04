@@ -2,7 +2,6 @@
 <html>
 <head>
 <title>Map Picker</title>
-  <link rel="stylesheet" type="text/css" href="website.css">
 </head>
 <body>
 	<h1>Map Picker</h1>
