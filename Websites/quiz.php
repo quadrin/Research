@@ -5,7 +5,7 @@
   <link rel="stylesheet" type="text/css" href="website.css">
 </head>
 <body>
-	<form method="post">
+	<form method="post" action="<">
 		What continent are you from? <br>
 		<input type="radio" value="Asia">Asia<br>
 		<input type="radio" value="Africa">Africa<br>
@@ -16,7 +16,7 @@
 		<input type="radio" value="Antarctica">Antarctica<br>
 		<input type="submit">
 	</form>
-<?p
+<?php
 	
 ?>
 </body>
