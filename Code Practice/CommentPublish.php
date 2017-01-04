@@ -4,6 +4,9 @@
 <title></title>
 </head>
 <body>
+  <form height="200", width="250">
+    
+  </form>
 <?php
 
 ?>
