@@ -9,10 +9,7 @@
 	
 	</form>
 <?php
-$answer = $_POST["quiz"]
-if (empty($answer)){
-echo "You have not answered"
-}
+
 ?>
 </body>
 </html>
