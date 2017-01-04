@@ -21,19 +21,19 @@
 	if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $answer = $_POST["map"];
     if ($answer == "Asia") {
-			echo "<img src='http://www.wineandvinesearch.com/continents/asia.png' />"
+			echo "<img src='http://www.wineandvinesearch.com/continents/asia.png' />";
     } elseif($answer == "Africa") {
-      echo "<img src='http://mrnussbaum.com/images/africa.gif' />"
+      echo "<img src='http://mrnussbaum.com/images/africa.gif' />";
     } elseif($answer == "Australia") {
-      echo "<img src='https://greenwichmeantime.com/images/index.htm_txt_australia-map.gif' />"
+      echo "<img src='https://greenwichmeantime.com/images/index.htm_txt_australia-map.gif' />";
     } elseif($answer == "Europe") {
-      echo "<img src='http://www.philatelicdatabase.com/wp-content/uploads/2009/04/map-europe-1871-1914.jpg' />"
+      echo "<img src='http://www.philatelicdatabase.com/wp-content/uploads/2009/04/map-europe-1871-1914.jpg' h />";
     } elseif($answer == "North America") {
-      echo "<img src='http://geology.com/world/north-america-map.gif' />"
+      echo "<img src='http://geology.com/world/north-america-map.gif' />";
     } elseif($answer == "South America") {
-      echo "<img src='https://s-media-cache-ak0.pinimg.com/originals/20/f7/48/20f7486b0d754e41551fa62145bc1a44.jpg' />"
+      echo "<img src='https://s-media-cache-ak0.pinimg.com/originals/20/f7/48/20f7486b0d754e41551fa62145bc1a44.jpg' />";
     } elseif($answer == "Antarctica") {
-      echo "<img src='http://3belowzero.com/wp-content/uploads/2012/06/antar1.jpg' />"
+      echo "<img src='http://3belowzero.com/wp-content/uploads/2012/06/antar1.jpg' />";
     }
   }
 ?>
